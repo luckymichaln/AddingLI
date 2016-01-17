@@ -1,7 +1,7 @@
 function add (adding) {
 	var li = document.createElement("li")
 	var ul = document.getElementsByTagName("ul")[0];
-	li.innerHTML="<li>Developer</li>";
+	li.innerText="Developer";
 	ul.appendChild(li);
 }
 
